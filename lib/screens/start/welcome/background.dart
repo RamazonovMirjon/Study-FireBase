@@ -27,6 +27,8 @@ class Background extends StatelessWidget {
                 end: Alignment.bottomCenter,
                 colors: [
                   ColorConst.kBlueColor.withOpacity(0.2),
+                  ColorConst.kBlueColor.withOpacity(0.3),
+                  ColorConst.kDarkBlueColor.withOpacity(0.91),
                   ColorConst.kDarkBlueColor,
                 ],
               ),

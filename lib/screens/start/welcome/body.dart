@@ -35,8 +35,9 @@ class Body extends StatelessWidget {
                       fontWeight: FontWeight.w600),
                   textAlign: TextAlign.center,
                 ),
+
                 onPressed: () {
-                  
+                  Navigator.pushNamed(context, "/onboarding3");
                 },
               ))
         ],

@@ -37,6 +37,7 @@ class Emblema extends StatelessWidget {
           Text(
             "Study",
             style: TextStyle(
+              fontWeight: FontWeight.w500,
               color: ColorConst.kWhiteColor,
               fontFamily: "Poppins",
               fontSize: size * 15,

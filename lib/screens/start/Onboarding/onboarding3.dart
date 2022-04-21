@@ -17,7 +17,7 @@ class Onboarding3 extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text(
-              "Explore more skills",
+              "Get the best class, with the best teacher",
               style: TextStyle(
                   fontFamily: "Poppins",
                   fontSize: 24,
@@ -68,7 +68,9 @@ class Onboarding3 extends StatelessWidget {
                       fontSize: 15,
                     ),
                   ),
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.pushNamed(context, "/signup");
+                  },
                 ),
                 InkWell(
                   child: Text(
@@ -79,7 +81,9 @@ class Onboarding3 extends StatelessWidget {
                       fontSize: 15,
                     ),
                   ),
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.pushNamed(context, "/signin");
+                  },
                 ),
               ],
             )

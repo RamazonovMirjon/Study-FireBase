@@ -68,7 +68,9 @@ class Onboarding1 extends StatelessWidget {
                       fontSize: 15,
                     ),
                   ),
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.pushNamed(context, "/signup");
+                  },
                 ),
                 InkWell(
                   onTap: () {

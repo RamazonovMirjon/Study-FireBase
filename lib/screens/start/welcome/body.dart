@@ -37,7 +37,7 @@ class Body extends StatelessWidget {
                 ),
 
                 onPressed: () {
-                  Navigator.pushNamed(context, "/onboarding3");
+                  Navigator.pushNamed(context, "/onboarding1");
                 },
               ))
         ],

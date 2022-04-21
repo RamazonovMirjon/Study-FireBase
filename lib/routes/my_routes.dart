@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stady/screens/darbadar/subjects.dart';
 import 'package:stady/screens/sign_up/sign_up.dart';
 import 'package:stady/screens/start/Onboarding/onboarding2.dart';
 import 'package:stady/screens/start/Onboarding/onboarding3.dart';
@@ -23,6 +24,8 @@ class MyRoute {
         return MaterialPageRoute(builder: ((context) => const SignUp()));
       case "/signin":
         return MaterialPageRoute(builder: ((context) => const Onboarding3()));
+      case "/subjects":
+        return MaterialPageRoute(builder: ((context) => const Subjects()));
     }
     return null;
   }

@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: "start",
+      initialRoute: "/subjects",
       onGenerateRoute: _myRoute.onGenerateRoute,
       home: const WelcomeScreen(),
     );

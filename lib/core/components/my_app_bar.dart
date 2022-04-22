@@ -19,6 +19,7 @@ class MyAppBar extends StatelessWidget with PreferredSizeWidget {
       elevation: 0,
       iconTheme: IconThemeData(color: ColorConst.kBlackColor),
       title: title,
+      actions: action,
     );
   }
 

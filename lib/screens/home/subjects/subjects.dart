@@ -26,14 +26,14 @@ class Subjects extends StatelessWidget {
                 borderRadius: const BorderRadius.all(
                   Radius.circular(25),
                 ),
-                color: SubjectsData.subjectsColor[index].withOpacity(0.15),
+                color: SciencesData.sciencesColor[index].withOpacity(0.15),
               ),
-              child: SvgPicture.asset(SubjectsData.subjectsUrl[index]),
+              child: SvgPicture.asset(SciencesData.sciencesUrl[index]),
             ),
-            Text(SubjectsData.subjectName[index]),
+            Text(SciencesData.sciencesShortName[index]),
           ],
         ),
-        itemCount: SubjectsData.subjectsColor.length,
+        itemCount: SciencesData.sciencesColor.length,
       ),
     );
   }

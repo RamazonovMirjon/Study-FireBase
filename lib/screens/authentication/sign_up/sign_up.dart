@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:stady/core/components/app_bar_text.dart';
 import 'package:stady/core/components/my_app_bar.dart';
+import 'package:stady/core/components/my_botton.dart';
 import 'package:stady/core/components/my_text_field.dart';
 import 'package:stady/core/constants/color_const.dart';
 
@@ -75,23 +76,11 @@ class SignUp extends StatelessWidget {
                       ],
                     ),
                     SizedBox(height: size.height * 0.1),
-                    SizedBox(
-                      width: double.infinity,
-                      height: 56,
-                      child: ElevatedButton(
-                        style: ElevatedButton.styleFrom(
-                            primary: ColorConst.kButtonColor),
-                        child: Text(
-                          "Sign Up",
-                          style: TextStyle(
-                              color: ColorConst.kWhiteColor,
-                              fontFamily: "Poppins",
-                              fontSize: 17,
-                              fontWeight: FontWeight.w600),
-                          textAlign: TextAlign.center,
-                        ),
-                        onPressed: () {},
-                      ),
+                    MyButton(
+                      onPressed: () {
+                        Navigator.pushNamed(context, "/interest");
+                      },
+                      text: "Sign Up",
                     )
                   ],
                 ),

@@ -1,7 +1,31 @@
 import 'package:flutter/material.dart';
 
-class SubjectsData {
-  static List<String> subjectName = [
+class SciencesData {
+ static List<String> sciencesName = [
+    "Mathematics",
+    "Physics",
+    "Arts",
+    "Biology",
+    "Technology",
+    "Economy",
+    "English",
+    "Geography",
+    "Chemical",
+  ];
+
+  static List<String> sciencesOtherNames = [
+    "Geometry, Algorithm",
+    "Mechanics, Optics",
+    "Portrait, Landscape",
+    "Zoology, Anatomy",
+    "Programming, Communication",
+    "Stock, Property, News",
+    "Stock, Property, News",
+    "Stock, Property, News",
+    "Reaction, Inorganic",
+  ];
+
+  static List<String> sciencesShortName = [
     "Math",
     "Physics",
     "Arts",
@@ -12,7 +36,7 @@ class SubjectsData {
     "Geography",
     "Chemical",
   ];
-  static List<String> subjectsUrl = [
+  static List<String> sciencesUrl = [
     "assets/icons/math.svg",
     "assets/icons/physics.svg",
     "assets/icons/arts.svg",
@@ -24,7 +48,7 @@ class SubjectsData {
     "assets/icons/chemical.svg",
   ];
 
-  static List<Color> subjectsColor = [
+  static List<Color> sciencesColor = [
     const Color(0xFF86242E),
     const Color(0xFFB45309),
     const Color(0xFF27487F),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stady/core/components/circle_avatar_three.dart';
 import 'package:stady/core/constants/color_const.dart';
 import 'package:stady/screens/start/components/backgraund.dart';
 
@@ -36,24 +37,7 @@ class Onboarding1 extends StatelessWidget {
             ),
             SizedBox(height: size.height * 0.08),
             Center(
-              child: SizedBox(
-                width: 50,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: [
-                    CircleAvatar(
-                        radius: 4, backgroundColor: ColorConst.kButtonColor),
-                    CircleAvatar(
-                        radius: 2,
-                        backgroundColor:
-                            ColorConst.kButtonColor.withOpacity(0.3)),
-                    CircleAvatar(
-                        radius: 2,
-                        backgroundColor:
-                            ColorConst.kButtonColor.withOpacity(0.3)),
-                  ],
-                ),
-              ),
+              child: circleAvatarthree(1),
             ),
             SizedBox(height: size.height * 0.05),
             Row(

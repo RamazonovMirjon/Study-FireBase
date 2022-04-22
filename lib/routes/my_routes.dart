@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:stady/screens/authentication/sign_up/sign_up.dart';
 import 'package:stady/screens/home/subjects/subjects.dart';
 import 'package:stady/screens/start/onboarding2.dart';
-import 'package:stady/screens/start/Onboarding/onboarding3.dart';
+import 'package:stady/screens/start/onboarding3.dart';
 import 'package:stady/screens/start/onboarding1.dart';
-import 'package:stady/screens/start/Onboarding/welcome/welcome_screen.dart';
+import 'package:stady/screens/start/welcome/welcome_screen.dart';
 
 class MyRoute {
   Route? onGenerateRoute(RouteSettings settings) {

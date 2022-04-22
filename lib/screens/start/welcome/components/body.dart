@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:stady/core/components/emblema.dart';
 import 'package:stady/core/constants/color_const.dart';
-import 'package:stady/screens/start/Onboarding/welcome/components/background.dart';
+import 'package:stady/screens/start/welcome/components/background.dart';
 
 class Body extends StatelessWidget {
   const Body({Key? key}) : super(key: key);

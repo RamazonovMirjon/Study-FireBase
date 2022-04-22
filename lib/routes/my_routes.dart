@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:stady/screens/darbadar/subjects.dart';
-import 'package:stady/screens/sign_up/sign_up.dart';
-import 'package:stady/screens/start/Onboarding/onboarding2.dart';
+import 'package:stady/screens/authentication/sign_up/sign_up.dart';
+import 'package:stady/screens/home/subjects/subjects.dart';
+import 'package:stady/screens/start/onboarding2.dart';
 import 'package:stady/screens/start/Onboarding/onboarding3.dart';
-import 'package:stady/screens/start/Onboarding/onboarding_1.dart';
-import 'package:stady/screens/start/welcome/welcome_screen.dart';
+import 'package:stady/screens/start/onboarding1.dart';
+import 'package:stady/screens/start/Onboarding/welcome/welcome_screen.dart';
 
 class MyRoute {
   Route? onGenerateRoute(RouteSettings settings) {
@@ -21,7 +21,7 @@ class MyRoute {
       case "/onboarding3":
         return MaterialPageRoute(builder: ((context) => const Onboarding3()));
       case "/signup":
-        return MaterialPageRoute(builder: ((context) => const SignUp()));
+        return MaterialPageRoute(builder: ((context) =>  const SignUp()));
       case "/signin":
         return MaterialPageRoute(builder: ((context) => const Onboarding3()));
       case "/subjects":

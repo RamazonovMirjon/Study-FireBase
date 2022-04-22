@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stady/core/constants/color_const.dart';
-import 'package:stady/screens/start/Onboarding/components/backgraund.dart';
+import 'package:stady/screens/start/components/backgraund.dart';
 
 class Onboarding1 extends StatelessWidget {
   const Onboarding1({Key? key}) : super(key: key);

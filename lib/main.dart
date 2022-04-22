@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stady/routes/my_routes.dart';
-import 'package:stady/screens/start/welcome/welcome_screen.dart';
+import 'package:stady/screens/start/Onboarding/welcome/welcome_screen.dart';
 
 void main() {
   runApp(MyApp());

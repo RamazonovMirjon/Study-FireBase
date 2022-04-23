@@ -46,8 +46,13 @@ class SignIn extends StatelessWidget {
                     controller: _passController,
                     pass: true,
                   ),
-                  Text("Forgot Password?", style: textStyle),
-                  SizedBox(height: size.height * 0.04),
+                  TextButton(
+                      onPressed: () {},
+                      child: Text(
+                        "Forgot Password?",
+                        style: textStyle,
+                      )),
+                  SizedBox(height: size.height * 0.02),
                 ],
               ),
             ),
@@ -55,16 +60,13 @@ class SignIn extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, "/interest");
               },
-              text: "Sign Up",
+              text: "Sign In",
             ),
             Padding(
               padding: const EdgeInsets.all(20),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  
-
-                ],
+                children: [],
               ),
             )
           ],

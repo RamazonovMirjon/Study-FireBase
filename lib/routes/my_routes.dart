@@ -22,7 +22,7 @@ class MyRoute {
       case "/onboarding3":
         return MaterialPageRoute(builder: ((context) => const Onboarding3()));
       case "/signup":
-        return MaterialPageRoute(builder: ((context) => const SignUp()));
+        return MaterialPageRoute(builder: ((context) =>  SignUp()));
       case "/signin":
         return MaterialPageRoute(builder: ((context) => const SignIn()));
       case "/subjects":
